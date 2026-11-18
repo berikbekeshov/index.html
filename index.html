@@ -78,8 +78,8 @@
     let group = sessionStorage.getItem('assigned_group');
 
     if (!group) {
-      // Случайное число от 1 до 3
-      group = Math.floor(Math.random() * 3) + 1;
+      // Случайное число от 1 до 2
+      group = Math.floor(Math.random() * 2) + 1;
       sessionStorage.setItem('assigned_group', group);
     }
 
